@@ -1,56 +1,68 @@
 # ===============================
-# Python cache files
+# Python
 # ===============================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
 # ===============================
-# Jupyter Notebook checkpoints
+# Virtual Environments (Conda / venv)
+# ===============================
+env/
+venv/
+.venv/
+pctd_env/
+conda-env/
+.env
+
+# ===============================
+# Jupyter Notebook
 # ===============================
 .ipynb_checkpoints/
 
 # ===============================
-# Conda / Virtual Environments
+# Flask
 # ===============================
-env/
-venv/
-ENV/
-.conda/
-conda-env/
+instance/
+*.log
 
 # ===============================
-# IDE / Editor files
+# Uploaded & Generated Files
+# ===============================
+app/static/uploads/*
+app/static/generated/*
+
+# Keep folders but ignore files
+!app/static/uploads/.gitkeep
+!app/static/generated/.gitkeep
+
+# ===============================
+# Original Reference Image (optional)
+# ===============================
+# Uncomment if you DON'T want to upload original PAN card
+# app/static/original/original.jpg
+
+# ===============================
+# VS Code
 # ===============================
 .vscode/
-.idea/
+.history/
 
 # ===============================
-# OS generated files
+# OS Files
 # ===============================
 .DS_Store
 Thumbs.db
 desktop.ini
 
 # ===============================
-# Data files (avoid committing sensitive or large data)
+# Cache / Temp
 # ===============================
-data/raw/
-data/processed/
-*.zip
-*.rar
-
-# ===============================
-# Logs and outputs
-# ===============================
-*.log
-outputs/
-results/
-
-# ===============================
-# Model files (if added later)
-# ===============================
-*.h5
-*.pkl
-*.joblib
+.cache/
+tmp/
