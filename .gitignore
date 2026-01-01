@@ -1,0 +1,56 @@
+# ===============================
+# Python cache files
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# Jupyter Notebook checkpoints
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Conda / Virtual Environments
+# ===============================
+env/
+venv/
+ENV/
+.conda/
+conda-env/
+
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Data files (avoid committing sensitive or large data)
+# ===============================
+data/raw/
+data/processed/
+*.zip
+*.rar
+
+# ===============================
+# Logs and outputs
+# ===============================
+*.log
+outputs/
+results/
+
+# ===============================
+# Model files (if added later)
+# ===============================
+*.h5
+*.pkl
+*.joblib
